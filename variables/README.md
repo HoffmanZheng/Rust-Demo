@@ -2,7 +2,7 @@
 
 1. The varibles in Rust is immutable be default, which means the value of the variable cannot be assigned twice. Make it easy to develop the complicated and concurrent code.
 
-2. Many factors need to consider when deciding a variable is mutable or not. Mpdifying a heavy object might be more efficient than assigning a new instance. On the other hand, it's quite comprehensible to use functional programing (assign value on new variable) when using lightweight object.
+2. Many factors need to consider when deciding a variable is mutable or not. Modifying a heavy object might be more efficient than assigning a new instance. On the other hand, it's quite comprehensible to use functional programing (assign value on new variable) when using lightweight object.
 
 ```
 fn main() {
