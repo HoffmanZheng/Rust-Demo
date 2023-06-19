@@ -12,7 +12,7 @@
 
 1. Rust style is to indent with four spaces, not a tab.
 
-2. Methods end with exclamation mark call a Rust macro instead of a function.
+2. Methods end with exclamation mark call`!` a Rust macro instead of a function.
 
 3. Compiling and running are separate steps in Rust, `rustc main.rs` outputs a binary executable file on MacOS and Linux. With CMD on windows, a debug information containing `main.pdb` would be generated addtionally.
 
